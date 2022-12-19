@@ -1,0 +1,62 @@
+/* Slack.com navbar and billboard area styles */
+:root {
+  --purple: #4a154b;
+  --light-purple: #6e1e62;
+  --dark-purple: #2e0a2f;
+  --white: #ffffff;
+  --black: #000000;
+  --blue: #36c5f0;
+  --blue-accesible: #2ea3f2;
+  --green: #2eb67d;
+  --green-accesible: #007a5a;
+  --yellow: #ecb22e;
+  --red: #e01e5a;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Manrope", sans-serif;
+}
+
+.header {
+  background-color: var(--purple);
+  color: var(--white);
+  padding: 0 1rem;
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+  height: 3rem;
+}
+
+.logo {
+  padding-right: 32px;
+}
+
+.links {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+
+.links a {
+  color: var(--white);
+  text-decoration: none;
+  padding: 15px 16px;
+  font-weight: 700;
+}
+
+.links > li > a:hover {
+  text-decoration: none;
+}
+
+.links a:hover {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.icon {
+  filter: invert(100%);
+  width: 8px;
+  margin-left: 1ch;
+}
