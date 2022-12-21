@@ -46,6 +46,11 @@
   justify-content: space-between;
 }
 
+.hero-section {
+  width: 100%;
+  margin: 0 auto;
+}
+
 /* Navbar */
 
 .header {
@@ -175,12 +180,13 @@
 
 .left-hero {
   flex: 1;
-  max-width: 50%;
+  max-width: 53%;
+  margin-right: 2%;
 }
 
 .right-hero {
   flex: 1;
-  max-width: 50%;
+  max-width: 45%;
 }
 
 .h-title {
@@ -286,6 +292,9 @@
 @media screen and (max-width: 64rem) {
   .sub-p {
     display: none;
+  }
+  .container {
+    padding: 0 2rem;
   }
 }
 
