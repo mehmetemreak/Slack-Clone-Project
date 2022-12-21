@@ -13,6 +13,7 @@
   --green-accesible: #007a5a;
   --yellow: #ecb22e;
   --red: #e01e5a;
+  --google-blue: #4285f4;
 }
 
 * {
@@ -162,4 +163,58 @@
 .billboard {
   background-color: var(--purple);
   color: var(--white);
+}
+
+.h-title {
+  font-size: 4rem;
+  max-width: 14em;
+  text-align: left;
+  font-weight: 700;
+  white-space: normal;
+}
+
+.highlight {
+  color: var(--yellow);
+}
+
+.hero-buttons {
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.google {
+  background: #fff;
+  position: absolute;
+  top: 4px;
+  bottom: 4px;
+  left: 4px;
+  width: 21px;
+  padding: 0.875rem;
+  margin-right: auto;
+  border-radius: 2px;
+}
+
+.google-button {
+  color: var(--white);
+  background-color: var(--google-blue);
+  border: none;
+  border-radius: 4px;
+  padding: 12px 16px;
+  font-weight: 700;
+  font-size: 0.875rem;
+  margin-left: 20px;
+  position: relative;
+  padding-left: 4rem;
+  height: 57px;
+}
+
+.normal-button {
+  color: var(--purple);
+  background-color: var(--white);
+  border: none;
+  border-radius: 4px;
+  padding: 19px 40px 20px;
+  font-weight: 700;
+  font-size: 0.875rem;
+  height: 57px;
 }
