@@ -22,6 +22,12 @@
   font-family: sans-serif, "Helvetica Neue";
   white-space: nowrap;
 }
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+  height: auto !important;
+}
 
 .page-content {
   display: block;
@@ -350,5 +356,12 @@
   }
   .sub-p {
     font-size: 1.25rem;
+  }
+}
+
+@media screen and (min-width: 0) and (max-width: 1023px) {
+  .hero-video {
+    min-width: 560px;
+    justify-self: flex-start;
   }
 }
