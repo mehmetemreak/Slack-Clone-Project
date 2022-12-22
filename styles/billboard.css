@@ -75,32 +75,6 @@ body {
   list-style: none;
 }
 
-@media screen and (max-width: 67.81rem) {
-  .link-list {
-    display: none;
-  }
-
-  .mobile {
-    display: none;
-  }
-}
-
-@media screen and (min-width: 67.81rem) {
-  .nav {
-    flex: 1;
-  }
-
-  .hamburger {
-    display: none;
-  }
-}
-
-@media screen and (max-width: 75.93rem) {
-  .talk-to-sales {
-    display: none;
-  }
-}
-
 .links a {
   color: var(--white);
   text-decoration: none;
@@ -167,6 +141,32 @@ body {
 
 .hamburger-menu {
   margin-left: 32px;
+}
+
+@media screen and (max-width: 67.81rem) {
+  .link-list {
+    display: none;
+  }
+
+  .mobile {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 67.81rem) {
+  .nav {
+    flex: 1;
+  }
+
+  .hamburger {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 75.93rem) {
+  .talk-to-sales {
+    display: none;
+  }
 }
 
 /* Billboard */
