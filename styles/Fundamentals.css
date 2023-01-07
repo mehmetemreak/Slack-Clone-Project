@@ -1,0 +1,30 @@
+/*Copied from oğuzhan-billboard.css*/
+@import url("../fonts/stylesheet.css");
+
+:root {
+  --purple: #541554;
+  --light-purple: #6e1e62;
+  --dark-purple: #2e0a2f;
+  --white: #ffffff;
+  --black: #000000;
+  --blue: #36c5f0;
+  --blue-accesible: #2ea3f2;
+  --green: #2eb67d;
+  --green-accesible: #007a5a;
+  --yellow: #ecb22e;
+  --red: #e01e5a;
+  --google-blue: #4285f4;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif, "Helvetica Neue";
+  white-space: nowrap;
+}
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+  height: auto !important;
+}
