@@ -243,6 +243,10 @@
   max-height: 400px;
 }
 
+.button {
+  cursor: pointer;
+}
+
 /* when screen size lower than 1283 px  */
 @media screen and (max-width: 73.31rem) {
   .highlight {

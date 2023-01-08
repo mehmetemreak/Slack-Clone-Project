@@ -11,11 +11,11 @@ html {
   font-size: 16px;
   color: #000;
 }
-*,
+/* *,
 ::after,
 ::before {
   box-sizing: inherit;
-}
+} */
 html {
   font-family: Slack-Circular-Pro, "Helvetica Neue", Helvetica, "Segoe UI",
     Tahoma, Arial, sans-serif;
