@@ -4,5 +4,58 @@
     width: 19px;
     height: 13px;
     display: inline-block;
-    margin-left: 0.5em;
+    margin-left: 0.5em;}
+/*for previwe*/
+.hero-section {
+    display: none
+}
+/*insideemojis*/
+
+#insideemojis h1 {
+    display: block;
+    text-align: center;
+    word-break: break-word;
+}
+
+
+#insideemojis p {
+    text-align: center;    
+}
+
+.buttons {
+    display: block;
+    grid-area: auto;
+    text-align: center;
+    
+}
+input#meet {
+    color: white;
+    background-color: var(--purple);
+    border: 4px #592261;
+    border-radius: 1ch;
+    padding-top: 19px;
+    padding-right: 40px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+}
+
+#meet:hover {
+    background-color: var(--dark-purple);    
+} 
+input#talk{
+    background-color: green;
+    display: grid;
+}
+
+/*percentages*/
+div h3:nth-child(1) {
+
+}
+
+/*video*/
+#video {
+
+}
+#caption {
+    
 }
