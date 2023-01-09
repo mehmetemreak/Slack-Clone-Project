@@ -133,7 +133,6 @@ article {
 	text-align: center;
 	text-indent: 0px;
 	text-transform: none;
-	vertical-align: baseline;
 	white-space: normal;
 	word-spacing: 0px;
 
@@ -207,7 +206,6 @@ article {
 
 #arrow {
 	margin-top: 10px;
-	margin-bottom: ;
 	text-decoration: none;
 	color: #1264A3;
 }
@@ -224,7 +222,7 @@ article {
     display: inline-block;
     margin-left: 0.5em;
 }
-}
+
 
 *, ::after, ::before {
     box-sizing: inherit;
